@@ -1,0 +1,240 @@
+body {
+  font-family: 'Helvetica';
+}
+h1,
+h2,
+h3 {
+  margin: 0.5rem 0;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+h3 {
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.row.center {
+  align-items: center;
+}
+.col-1 {
+  flex: 1;
+}
+.col-2 {
+  flex: 2;
+}
+.block {
+  background-color: #ffffff;
+  padding: 1rem;
+  margin: 0.5rem;
+ 
+}
+.text-right {
+  text-align: right;
+}
+img.small {
+  max-height: 8rem;
+}
+button {
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  /* padding-right: 0.5rem; */
+  border: 0.1rem #404040 solid;
+  background-color: #407bf0;
+  color: aliceblue;
+  width: 100%;
+  cursor: pointer;
+}
+
+button.add {
+  background-color: #52f040;
+  color: #ffffff;
+  width: 1.5rem;
+}
+button.remove {
+  background-color: #f40000;
+  color: #ffffff;
+
+  width: 1.5rem;
+}
+button.badge {
+  background-color: #27e013;
+  border: none;
+  color: #ffffff;
+  width: 1.5rem;
+}
+
+
+
+/* for blogs section */
+
+@import
+url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(12rem, 16rem));
+    gap:2rem;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.cards .card{
+    overflow: hidden;
+    box-shadow: 0 2px 20px #e1e5ee;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+}
+
+.cards .card .img{
+  height:12rem;
+  width:100%;
+  object-fit:contain;
+}
+.cards .card .title{
+    padding: 1rem;
+    color: rgb(0, 62, 48);
+}
+.cards .card .description{
+    padding: 0 1rem;
+    color: rgb(39, 55, 67);
+}
+.cards .card .btn{
+   padding: 1rem;
+   margin-top: 2%;
+   margin-bottom: 3%;
+   font-family: inherit;
+   font-weight: bold;
+   font-size: 1rem;
+   /* border: 2px solid  #fe3647; */
+   background: transparent;
+   /* color: #ff4444; */
+   border-radius: 4px;
+   transition: background 200ms ease-in,color 200ms ease-in;
+   text-align: center;
+   width: 70%;
+   align-self: center;
+   padding: 15px 10px;
+   color: rgb(0, 62, 48);
+}
+
+
+.card:hover{
+    transform: scale(1.02);
+}
+.cards .card .btn:hover{
+    background: rgb(128, 163, 242);
+    color:rgb(4, 95, 87);
+}
+.top{
+  
+  text-align: center;
+  padding-top: 3rem;
+
+  background-color: #407bf0;
+color: white;
+padding-bottom: 3rem;
+/* width: 50%; */
+
+
+}
+.btnclick{
+
+  background-color: #1391e0;
+  width: 30%;
+  border-radius: 3rem;
+  
+  
+  }
+.btnclick:hover{
+
+background-color: #27e013;
+width: 50%;
+
+
+
+}
+.hding{
+
+background-color: white;
+
+}
+.if{
+height: 100%;
+width:100%
+
+
+}
+.dt{
+  background-color: rgb(153, 153, 251);
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.carHead{
+font-size: xx-large;
+color: white;
+background-color: #407bf0;
+text-align: center;
+padding-bottom: 3rem;
+padding-top: 3rem;
+
+
+}
+
+
+.carousel #carouselExampleDark
+{
+    width: 40%;
+    width: 80%;
+    height: 60%;
+    height: 80%;
+}
+.carousel{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: #b7cdf8;
+
+    height: 40%;
+}
+.alignbtn{
+
+align-items:flex-end
+
+}
+
